@@ -1,0 +1,163 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+svg,
+canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+}
+
+/* Variables */
+:root {
+  --font-size-sm: clamp(0.8rem, 0.25vi + 0.74rem, 0.94rem);
+  --font-size-base: clamp(1rem, 0.45vi + 0.89rem, 1.25rem);
+  --font-size-md: clamp(1.25rem, 0.76vi + 1.06rem, 1.67rem);
+  --font-size-lg: clamp(1.56rem, 1.2vi + 1.26rem, 2.22rem);
+  --font-size-xl: clamp(1.95rem, 1.83vi + 1.5rem, 2.96rem);
+  --font-size-xxl: clamp(2.44rem, 2.74vi + 1.76rem, 3.95rem);
+  --font-size-xxxl: clamp(3.05rem, 4.02vi + 2.05rem, 5.26rem);
+
+  --font-size-vis-xs: 10px;
+  --font-size-vis-sm: 12px;
+  --font-size-vis-base: 14px;
+  --font-size-vis-lg: 16px;
+
+  --font-family: "Mona Sans", sans-serif;
+
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+
+  --line-height-body: 1.5;
+  --line-height-header: 0.9;
+
+  --color-background: #edecea;
+  --color-text: #334151;
+  --color-link: #334151;
+  --color-export: #2cb5ab;
+  --color-import: #da4346;
+  --color-muted: #d4d1cd;
+}
+
+/* Typography */
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-normal);
+  line-height: var(--line-height-body);
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+h1 {
+  font-size: var(--font-size-xxxl);
+  font-weight: var(--font-weight-black);
+  line-height: var(--line-height-header);
+  text-transform: uppercase;
+}
+
+footer {
+  font-size: var(--font-size-sm);
+}
+
+/* Layout */
+main {
+  margin-inline: auto;
+  padding-block: 2rem;
+  min-height: 100svh;
+  width: min(88rem, 100% - 2rem);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.intro {
+  flex-basis: 25rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.main {
+  flex-basis: 0;
+  flex: 9999;
+  min-inline-size: 65%;
+  display: grid;
+}
+
+.main > * {
+  grid-area: 1 / -1;
+}
+
+.arc-diagram {
+  justify-self: center;
+  align-self: center;
+}
+
+p {
+  max-width: 65ch;
+}
+
+p + p {
+  margin-block-start: 1lh;
+}
+
+footer {
+  margin-block-start: 2lh;
+}
+
+/* Arc diagram */
+.arc-diagram .links {
+  pointer-events: none;
+}
+
+.arc-diagram .link__path {
+  stroke-opacity: 0.5;
+  mix-blend-mode: multiply;
+}
+
+.arc-diagram .link__label,
+.arc-diagram .node__label {
+  pointer-events: none;
+  font-size: var(--font-size-vis-base);
+  font-weight: var(--font-weight-bold);
+  fill: var(--color-text);
+  stroke: var(--color-background);
+  stroke-width: 4px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  paint-order: stroke;
+}
+
+.arc-diagram .link__label {
+  font-size: var(--font-size-vis-sm);
+}

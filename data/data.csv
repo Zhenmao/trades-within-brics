@@ -1,0 +1,91 @@
+﻿Exporter,Importer,Value (in USD Billions)
+Brazil,China,100
+Brazil,Egypt,3.7
+Brazil,Ethiopia,0.03
+Brazil,India,6.9
+Brazil,Indonesia,4.1
+Brazil,Iran,2.9
+Brazil,Russia,1.5
+Brazil,South Africa,1.5
+Brazil,UAE,3.8
+China,Brazil,72
+China,Egypt,20
+China,Ethiopia,3.9
+China,India,136
+China,Indonesia,85
+China,Iran,6.9
+China,Russia,103
+China,South Africa,23
+China,UAE,73
+Egypt,Brazil,1.1
+Egypt,China,0.49
+Egypt,Ethiopia,0.08
+Egypt,India,0.64
+Egypt,Indonesia,0.18
+Egypt,Iran,0.004
+Egypt,Russia,0.81
+Egypt,South Africa,0.16
+Egypt,UAE,7
+Ethiopia,Brazil,0.001
+Ethiopia,China,0.78
+Ethiopia,Egypt,0.03
+Ethiopia,India,0.2
+Ethiopia,Indonesia,0.03
+Ethiopia,Iran,No Data
+Ethiopia,Russia,No Data
+Ethiopia,South Africa,0.01
+Ethiopia,UAE,No Data
+India,Brazil,6.9
+India,China,18
+India,Egypt,4
+India,Ethiopia,0.47
+India,Indonesia,4.3
+India,Iran,1.2
+India,Russia,4.5
+India,South Africa,7
+India,UAE,39
+Indonesia,Brazil,2.2
+Indonesia,China,67
+Indonesia,Egypt,1.9
+Indonesia,Ethiopia,0.11
+Indonesia,India,18
+Indonesia,Iran,0.25
+Indonesia,Russia,1.9
+Indonesia,South Africa,0.989
+Indonesia,UAE,4
+Iran,Brazil,0.09
+Iran,China,3
+Iran,Egypt,0.003
+Iran,Ethiopia,No Data
+Iran,India,0.5
+Iran,Indonesia,0.009
+Iran,Russia,No Data
+Iran,South Africa,0.006
+Iran,UAE,No Data
+Russia,Brazil,9.4
+Russia,China,124
+Russia,Egypt,5.2
+Russia,Ethiopia,No Data
+Russia,India,59
+Russia,Indonesia,3
+Russia,Iran,No Data
+Russia,South Africa,0.5
+Russia,UAE,No Data
+South Africa,Brazil,0.29
+South Africa,China,13
+South Africa,Egypt,0.09
+South Africa,Ethiopia,0.07
+South Africa,India,4.7
+South Africa,Indonesia,0.36
+South Africa,Iran,0.006
+South Africa,Russia,0.39
+South Africa,UAE,3
+UAE,Brazil,0.63
+UAE,China,35
+UAE,Egypt,2.6
+UAE,Ethiopia,No Data
+UAE,India,67
+UAE,Indonesia,2.4
+UAE,Iran,No Data
+UAE,Russia,No Data
+UAE,South Africa,2.6
