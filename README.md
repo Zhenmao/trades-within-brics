@@ -1,4 +1,4 @@
-# [Trades Within BRICKS](https://github.com/Zhenmao/trades-within-bricks)
+# [Trades Within BRICS](https://github.com/Zhenmao/trades-within-brics)
 
 ### References:
 
